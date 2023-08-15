@@ -1,0 +1,30 @@
+.cats-view {
+    background-color: #6B7A90 !important;
+}
+.cats-view h2 {
+    text-align: center;
+    color: white;
+}
+
+.cats-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cats-view button {
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    color: white;
+    background-color: #1976d2;
+    border: none;
+    cursor: pointer;
+}
+
+.cat-image {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}

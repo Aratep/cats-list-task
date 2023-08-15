@@ -1,0 +1,17 @@
+.sidebar {
+    padding-left: 1rem;
+    background-color: aliceblue;
+}
+
+.sidebar h3 {
+    color: #0059B2
+}
+
+li {
+    list-style-type: none;
+    padding: 0.2rem;
+}
+
+li a {
+    color: #0059B2
+}

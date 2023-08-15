@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+  background-color: #E7E9EB;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.App aside {
+    width: 20%;
+    background-color: aliceblue;
+
+    @media only screen and (max-width: 768px) {
+        width: 100%
+      }
+}
+
+.App section {
+  background-color: #E7E9EB;
+  width: 80%;
+
+  @media only screen and (max-width: 768px) {
+      width: 100%
+    }
+}
